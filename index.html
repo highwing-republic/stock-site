@@ -1,0 +1,46 @@
+---
+# Built by Jekyll: the shared header and footer come from _includes/.
+---
+<!doctype html>
+<html lang="ja">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QS9HSHCY33"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-QS9HSHCY33');</script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EDINET投資レーダー｜大株主の動きと株価の勢い</title>
+  <meta name="description" content="大量保有報告と株価の動きが重なった銘柄を、JPX日経400と新TOPIXの2つの範囲で整理するツールです。">
+  <link rel="canonical" href="https://stock.ugatta-llc.com/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="EDINET投資レーダー">
+  <meta property="og:title" content="EDINET投資レーダー"><meta property="og:description" content="大量保有報告と株価の動きが重なった銘柄を、JPX日経400と新TOPIXの2つの範囲で整理するツールです。"><meta property="og:url" content="https://stock.ugatta-llc.com/">
+  <meta property="og:image" content="https://stock.ugatta-llc.com/images/og-stock.jpg"><meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="/css/site-shell.css">
+  <script src="/js/site-shell.js" defer></script>
+  <style>
+    body{margin:0;background:#f5f7fa;color:#17324d;font-family:"Noto Sans JP",sans-serif}
+    .radar-home{padding:72px 0 96px}
+    .radar-home .container{width:min(1120px,calc(100% - 32px));margin:0 auto}
+    .radar-home h1{font-size:clamp(26px,3.4vw,40px);line-height:1.35;margin:0 0 16px}
+    .radar-home p.lead{max-width:640px;line-height:1.9;margin:0 0 36px;color:#41566b}
+    .radar-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;max-width:880px}
+    .radar-card{display:block;padding:24px;border:1px solid #d6dee8;border-radius:12px;background:#fff;color:inherit;text-decoration:none}
+    .radar-card:hover{border-color:#17324d}
+    .radar-card h2{font-size:19px;margin:0 0 8px}.radar-card p{margin:0;line-height:1.8;font-size:14px;color:#41566b}
+    .radar-note{margin-top:40px;font-size:13px;color:#5b6b7b;max-width:720px;line-height:1.8}
+  </style>
+</head>
+<body>
+{% include site-header.html %}
+  <main id="main"><section class="radar-home"><div class="container">
+    <h1>大株主の動きと、株価の勢い。</h1>
+    <p class="lead">EDINETの大量保有報告と株価の動きが重なった銘柄を、今週・今月に確認したい順に整理します。</p>
+    <div class="radar-cards">
+      <a class="radar-card" href="/watch/"><h2>JPX日経400</h2><p>JPX日経400の構成銘柄を対象に、大量保有報告と株価の動きを確認します。</p></a>
+      <a class="radar-card" href="/topix/"><h2>新TOPIX</h2><p>2026年10月の初回定期入替後の新TOPIX構成銘柄（移行措置銘柄を除く）を対象にします。</p></a>
+    </div>
+    <p class="radar-note">本サイトは公開情報を整理する情報整理ツールであり、特定銘柄の売買を推奨するものではなく、将来の株価を予測するものでもありません。投資判断はご自身の責任で行ってください。</p>
+  </div></section></main>
+{% include site-footer.html %}<script src="/js/site.js" defer></script>
+</body>
+</html>

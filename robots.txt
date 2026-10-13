@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stock.ugatta-llc.com/sitemap.xml
